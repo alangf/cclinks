@@ -1,7 +1,7 @@
 {
     "name": "Caracas Chronicles links",
     "description": "Underlines links in caracaschronicles.com's posts and comments and opens any link in a new tab.",
-    "version": "1.0",
+    "version": "1.1",
     "permissions": [
         "activeTab"
     ],
