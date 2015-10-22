@@ -12,7 +12,7 @@ if (post_content.length > 0) {
 // links in comments
 var commments = document.getElementsByClassName("comment-content");
 for (var i = 0; i < comments.length; i++) {
-    var links = document.getElementsByTagName('a');
+    var links = comments[i].getElementsByTagName('a');
     for (z = 0; z < links.length; z++) {
         links[z].setAttribute('target', '_blank')
     }
